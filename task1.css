@@ -1,7 +1,25 @@
+@font-face {
+  font-family: heartless;
+  src: url(./Modern\ Thrash\ Slant\ Demo.otf);
+}
+@font-face {
+  font-family: horror;
+  src: url(./Another\ Danger\ -\ Demo.otf);
+}
 h1 {
-  color: blue;
+  color: yellowgreen;
+  background: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 800;
 }
 
 p {
   font-size: 18px;
+  font-family: heartless;
+}
+
+h2{
+    font-family: horror;
+    color: red;
+    background-color: black;
 }
