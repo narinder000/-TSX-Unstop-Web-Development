@@ -25,3 +25,15 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
+#box5{
+    background-color: crimson;
+    margin-left: 200px;
+    height: 300px;
+    width: 300px;
+    border: 10px solid black;
+    border-radius: 40px;
+     position: fixed;
+    top: 0;
+    left: 50px;
+
+}
