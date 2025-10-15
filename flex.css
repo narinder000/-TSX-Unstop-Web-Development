@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+   
+}
+#parent{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;                         /*  y axis par ye handeling krta hai column */        
+     justify-content: center;                /* x axis par ye handeling krta hai  rows */
+}
+#child{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    
+}#child:nth-child(2){
+    background-color: yellow;
+}#child:nth-child(3){
+    background-color: orange;
+}
+
+
