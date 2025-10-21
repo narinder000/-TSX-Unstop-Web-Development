@@ -13,8 +13,8 @@ html,body{
     width: 100%;
     background-color: black;
     display: flex;
-    align-items: center;                         /*  y axis par ye handeling krta hai column */        
-     justify-content: center;                /* x axis par ye handeling krta hai  rows */
+    align-items: center;                         /*  y axis par ye handeling krta hai column /cross axis */         
+     justify-content: center;                /* x axis par ye handeling krta hai  rows/ main axis */
 }
 #child{
     height: 100px;
