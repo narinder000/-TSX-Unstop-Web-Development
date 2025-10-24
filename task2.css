@@ -43,6 +43,7 @@ flex-direction: column;
     width: 100px;
     object-fit: cover;
     border-radius: 10px;
+    
 }
 
 #card button{
